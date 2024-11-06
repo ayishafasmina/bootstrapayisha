@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  .navbar {
+    padding: 1.5rem 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card i {
+    color: #198754;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .jumbotron {
+      padding: 5rem 0;
+    }
+  
+    .jumbotron h1 {
+      font-size: 2rem;
+    }
+  
+    .jumbotron p {
+      font-size: 1rem;
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+    }
+  }
+
+  
+  /* Basic Carousel Styling */
+.carousel-inner {
+    height: 400px; /* Adjust the height of the carousel */
+   }
+   
+   .carousel-item img {
+    object-fit: cover; /* Cover the entire container, potentially cropping */
+    filter: brightness(0.8); /* Adjust brightness (optional) */
+   }
+   
+   /* Carousel Indicators */
+   .carousel-indicators {
+    bottom: -30px; /* Position indicators lower */
+    z-index: 10; /* Place indicators on top */
+   }
+   
+ 
+   
+   .carousel-indicators .active {
+    background-color: rgba(255, 255, 255, 0.6); /* Lighter active indicator */
+   }
+   
+  
+   
+   .carousel-control-prev-icon,
+   .carousel-control-next-icon {
+    filter: invert(1); /* Invert the icons for better visibility */
+   }
+   
+   /* Optional: For a more modern look */
+   .carousel-item {
+    transition: transform 0.5s ease-in-out; /* Add a smooth transition */
+   }
+   
+   .carousel-item.active {
+    transform: scale(1.1); /* Slightly zoom in the active item */
+    /* You can also add a shadow to the active item */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   }
+
+
+  
+
+   
+   
